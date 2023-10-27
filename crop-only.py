@@ -37,14 +37,14 @@ def bright_img(img):
 
 def main():
     # Load the image
-    image_path = "nice/IMG_1431.JPG"
+    image_path = "lisega.png"
     image = cv2.imread(image_path)
 
     if image is None:
         print("Error: Unable to open the image.")
         return
-    target_size = (1280, 1000)  # Replace with your desired size
-    image = cv2.resize(image, target_size)
+    # target_size = (1280, 1000)  # Replace with your desired size
+    # image = cv2.resize(image, target_size)
     
 
     while True:
